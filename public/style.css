@@ -1,17 +1,129 @@
 
-@font-face{
+.title{
 font-family: "Concert One";
-src: local(Concert One),url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format('truetype');
+src: local(Concert_One),url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format('truetype');
 font-weight:normal;
 font-style: normal;
+}
+
+.title2{
+    text-align: center;
+    font-size:35px ;
+    font-family:"Roboto";
+    src: local(Roboto),url(../public/fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    color: rgb(31, 29, 29);
+}
+
+
+.login{
+    background: black; 
+    color:white; 
+    border: 1px solid white; 
+    margin-left: 1500px;
+    padding: 8px 50px;
+    margin-right: 45px;
+    font-size:16px ;
+    border-radius: 8px;
+
+}
+
+.grade{
+    margin-top: 25px;
+    padding-top: 35px;
 }
 
 
 
 
 
+.img2{
+   width: 50px;
+   height: 50px; 
+   margin-top: 430px;
+}
+.img3{
+   width: 50px;
+   height: 30px;
+padding-top: 300px;
+
+}
+
+.img4{
+   height:250px ;
+   margin-top: 40px;
+padding-top: 300px;
+}
+
+.img5{
+   margin-top: 140px;
+   width: 25px;
+   height: 100px;
+}
+
+.img6{
+    width: 50px;
+   height: 30px;
+   margin-top: 940px;
+
+}
 
 
+.img7{ 
+min-width: 20000px;
+    min-height: 30px;
+    margin-top: 340px;
+}
+
+
+.img8{ 
+    width: 50px;
+    height: 10px;
+    margin-top: 30px;
+    margin-bottom: 600px;
+    
+}
+
+
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+}
+.footer-item{
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+}
+.footer-item + .footer-item{
+    margin-left: 16px;
+}
+
+
+
+.title-smaller{
+    font-family: "Concert one";
+    src: local(Concert_One) url(../public/fonts/Concert_One/ConcertOne-Regular.ttf)format('truetype');
+    color: white;
+    font-size: 26px;
+}
+
+
+.list-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
