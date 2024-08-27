@@ -4,6 +4,8 @@ font-family: "Concert One";
 src: local(Concert_One),url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) format('truetype');
 font-weight:normal;
 font-style: normal;
+padding: 30px;
+
 }
 
 .title2{
@@ -14,13 +16,13 @@ font-style: normal;
     font-weight: normal;
     font-style: normal;
     color: rgb(31, 29, 29);
+    
 }
 
 
 .login{
     background:#161616; 
     color:white; 
-    border: 1px solid black; 
     margin-left: 1500px;
     padding: 8px 50px;
     margin-right: 450px;
@@ -32,7 +34,7 @@ font-style: normal;
 
 ul{
     margin-bottom: 10px;
-    border-bottom: 1px solid black;
+    border: 1px solid black; 
 }
 
 
