@@ -5,7 +5,7 @@ src: local(Concert_One),url(../public/fonts/Concert_One/ConcertOne-Regular.ttf) 
 font-weight:normal;
 font-style: normal;
 padding: 30px;
-
+text-decoration: none;
 }
 
 .title2{
@@ -16,7 +16,16 @@ padding: 30px;
     font-weight: normal;
     font-style: normal;
     color: rgb(31, 29, 29);
+    border: 1px solid black;
+     
     
+}
+
+.list{
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
 }
 
 
@@ -28,42 +37,47 @@ padding: 30px;
     margin-right: 450px;
     font-size:16px ;
     border-radius: 8px;
-    margin-bottom: 20px;
 
 }
 
-ul{
-    margin-bottom: 10px;
-    border: 1px solid black; 
-}
 
 
 
 .img{
-    margin: 8px;
+   position: relative;
+   overflow: hidden;
+   max-width: 100%;
+   padding: 2px;
+   
 }
 
 .img1{
-    width: 600px;
-    height: 300px;
+  height: 450px;
+  width: 950px;  
+    
 }
 
+.img7{ 
+    width: 575px;
+    height: 950px;
+    margin-left: 1250px;
 
+}
 
 .img2{
-   width: 275px;
-   height: 275px; 
+   width: 400px;
+   height: 400px;
    
 }
 .img3{
     width: 275px;
    height: 275px; 
-   margin-left:283px;
+   
 }
 
 .img4{
     width: 275px;
-    height: 275px; 
+    height: 275px;
 }
 
 .img5{
@@ -77,10 +91,7 @@ ul{
 }
 
 
-.img7{ 
-    width: 275px;
-    height: 450px;
-}
+
 
 
 .img8{ 
@@ -91,20 +102,17 @@ ul{
 
 
 
-.main-footer{
+.footer{
     background-color: #161616;
     color: #FFFFFF;
-    height: auto;
-    width: auto;
-    border-radius:2px ;
+text-decoration: none ;
+    
 }
 
-.main-footer-container{
+.footer-container{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    width: auto;
-    height: auto;
     
 }
 .item{
@@ -112,10 +120,11 @@ ul{
     height: 18px;
     padding: 30px ;
     margin-left: 50px;
+    
 }
 .footer-item{
-    margin-left: 18px;
-    text-decoration: none;
+    margin-left: 90px;
+    
 }
 
 
@@ -139,10 +148,11 @@ ul{
 }
 
 
-.list-container{
+.container{
     display: flex;
-    align-items: center;
-    justify-content:space-around;
+align-items: center;
+    text-decoration: none;
+    
 }
 
 
