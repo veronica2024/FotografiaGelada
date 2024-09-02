@@ -43,13 +43,7 @@ text-decoration: none;
 
 
 
-.img{
-   position: relative;
-   overflow: hidden;
-   max-width: 100%;
-   padding: 2px;
-   
-}
+
 
 .img1{
   height: 450px;
@@ -61,6 +55,7 @@ text-decoration: none;
     width: 575px;
     height: 950px;
     margin-left: 1250px;
+    margin-top: 200px;
 
 }
 
